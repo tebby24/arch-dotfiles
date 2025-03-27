@@ -8,5 +8,3 @@ alias copy='xclip -sel clip'
 
 # random commands
 alias printpath='echo "$PATH" | tr ":" "\n"'
-alias tms='tmux-sessionizer'
-alias vsd='video-and-subtitle-downloader' 

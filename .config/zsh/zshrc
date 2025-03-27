@@ -3,11 +3,11 @@ source $HOME/.config/zsh/aliases
 source $HOME/.config/zsh/variables
 
 # update PATH
-export PATH="$HOME/bin/scripts:$PATH"
-export PATH="$HOME/bin/rofi-scripts:$PATH"
+export PATH="$HOME/bin/scripts/user:$PATH"
+export PATH="$HOME/bin/scripts/shared:$PATH"
 
-
-
+# Remove duplicates from the PATH 
+export PATH=$(echo $PATH | tr ':' '\n' | awk '!seen[$0]++' | tr '\n' ':')
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -31,5 +31,3 @@ PROMPT="%n:%~${NEWLINE}$ "
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
-# Remove duplicates from the PATH environment variable
-export PATH=$(echo $PATH | tr ':' '\n' | awk '!seen[$0]++' | tr '\n' ':')

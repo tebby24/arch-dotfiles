@@ -12,6 +12,7 @@
       <value type="string" value="org.gnome.clocks"/>
       <value type="string" value="org.manjaro.pamac.manager"/>
       <value type="string" value="org.manjaro.pamac.tray"/>
+      <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>
