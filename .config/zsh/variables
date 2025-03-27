@@ -1,0 +1,2 @@
+# update environment variables
+export QT_QPA_PLATFORMTHEME="qt5ct"
