@@ -4,7 +4,7 @@
 # Ensure we're on the correct branch (change 'master' to your actual branch if needed)
 BRANCH=$(yadm branch --show-current)
 if [ -z "$BRANCH" ]; then
-    yadm checkout master 2>&1 | tee /tmp/yadm_error.log
+    yadm checkout master 2>&1 | tee ~/tmp/yadm_error.log
     BRANCH="master"
 fi
 
@@ -14,10 +14,10 @@ yadm add -u
 # Check if there are staged changes
 if ! yadm diff --cached --exit-code > /dev/null; then
     # Commit with timestamp
-    yadm commit -m "Auto-update: $(date)" 2>&1 | tee -a /tmp/yadm_error.log
+    yadm commit -m "Auto-update: $(date)" 2>&1 | tee -a ~/tmp/yadm_error.log
     
     # Attempt to push and capture any errors
-    if ! yadm push 2>&1 | tee -a /tmp/yadm_error.log; then
+    if ! yadm push 2>&1 | tee -a ~/tmp/yadm_error.log; then
         notify-send "YADM Sync Failed" "Error: $(tail -n 5 /tmp/yadm_error.log)"
         exit 1
     fi

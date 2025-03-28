@@ -12,12 +12,12 @@ send_notification() {
 # Ensure we're on the correct branch (change 'master' if needed)
 BRANCH=$(yadm branch --show-current)
 if [ -z "$BRANCH" ]; then
-    yadm checkout master 2>&1 | tee /tmp/yadm_error.log
+    yadm checkout master 2>&1 | tee ~/tmp/yadm_error.log
     BRANCH="master"
 fi
 
 # Pull the latest changes (rebasing to avoid merge commits)
-if ! yadm pull --rebase 2>&1 | tee -a /tmp/yadm_error.log; then
+if ! yadm pull --rebase 2>&1 | tee -a ~/tmp/yadm_error.log; then
     send_notification "Pull failed: $(tail -n 5 /tmp/yadm_error.log)" "dialog-error"
     exit 1
 fi
