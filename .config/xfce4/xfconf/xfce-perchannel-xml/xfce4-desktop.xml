@@ -20,7 +20,7 @@
             <value type="double" value="1"/>
           </property>
           <property name="image-style" type="int" value="4"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/wallpapers/mai-sakurajima.png"/>
+          <property name="last-image" type="string" value="/home/qiyichen/Pictures/shared/wallpapers/mai-sakurajima.png"/>
         </property>
       </property>
       <property name="monitorHDMI-2" type="empty">
