@@ -1,0 +1,29 @@
+#!/bin/zsh
+# yadm_pull.sh - Pull updated dotfiles from GitHub
+
+# Function to send notifications
+send_notification() {
+    local message=$1
+    local icon=$2
+    export DISPLAY=:0
+    notify-send -u critical -i "$icon" "YADM Sync" "$message"
+}
+
+# Ensure we're on the correct branch (change 'master' if needed)
+BRANCH=$(yadm branch --show-current)
+if [ -z "$BRANCH" ]; then
+    yadm checkout master 2>&1 | tee /tmp/yadm_error.log
+    BRANCH="master"
+fi
+
+# Pull the latest changes (rebasing to avoid merge commits)
+if ! yadm pull --rebase 2>&1 | tee -a /tmp/yadm_error.log; then
+    send_notification "Pull failed: $(tail -n 5 /tmp/yadm_error.log)" "dialog-error"
+    exit 1
+fi
+
+# Reload shell configuration if needed
+[ -f ~/.zshrc ] && source ~/.zshrc
+
+# Notify user of successful update
+send_notification "Dotfiles updated successfully from GitHub." "dialog-information"
