@@ -1,5 +1,8 @@
 #!/bin/zsh
-# yadm_pull.sh - Pull updated dotfiles from GitHub
+# yadmpull - Pull updated dotfiles from GitHub
+
+# Make tmp directory for error log
+mkdir ~/tmp -p
 
 # Function to send notifications
 send_notification() {

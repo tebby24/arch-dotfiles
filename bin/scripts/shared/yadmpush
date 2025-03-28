@@ -1,5 +1,8 @@
 #!/bin/zsh
-# yadm_push.sh - Commit and push updated dotfiles to GitHub
+# yadmpush - Commit and push updated dotfiles to GitHub
+
+# Make tmp directory for error log
+mkdir ~/tmp -p
 
 # Ensure we're on the correct branch (change 'master' to your actual branch if needed)
 BRANCH=$(yadm branch --show-current)
