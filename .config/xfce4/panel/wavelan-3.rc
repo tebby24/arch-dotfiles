@@ -1,4 +1,4 @@
-Interface=wlp3s0
+Interface=wlan0
 Autohide=false
 AutohideMissing=false
 SignalColors=true

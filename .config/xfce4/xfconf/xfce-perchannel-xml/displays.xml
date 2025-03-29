@@ -5,31 +5,31 @@
   <property name="Notify" type="int" value="1"/>
   <property name="AutoEnableProfiles" type="int" value="3"/>
   <property name="Default" type="empty">
-    <property name="eDP-1" type="string" value="Laptop">
+    <property name="HDMI-A-0" type="string" value="Acer Technologies 27&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="df0163b29d4f324be4718d2d7aaeb3348268087d"/>
-      <property name="Resolution" type="string" value="1366x768"/>
-      <property name="RefreshRate" type="double" value="60.004717351993079"/>
+      <property name="EDID" type="string" value="7a0caf30e70649668737f2a5fab2c56fd0bfb2e3"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
       <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="double" value="1"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1080"/>
+        <property name="Y" type="int" value="247"/>
+      </property>
+    </property>
+    <property name="DisplayPort-2" type="string" value="LG Electronics 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="e6230f8121765946de9770a20286fdb7be0e3568"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="90"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="double" value="1"/>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="1080"/>
-      </property>
-    </property>
-    <property name="HDMI-2" type="string" value="Dell Inc. 24&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="e348573052daa8f7853afd3ee8242133d69e711f"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="1"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="42"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>

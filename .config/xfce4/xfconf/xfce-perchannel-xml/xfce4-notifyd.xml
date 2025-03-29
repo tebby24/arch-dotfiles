@@ -21,4 +21,5 @@
     </property>
   </property>
   <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="show-notifications-on" type="string" value="primary-monitor"/>
 </channel>

@@ -29,7 +29,7 @@
         <value type="int" value="22"/>
         <value type="int" value="24"/>
       </property>
-      <property name="output-name" type="string" value="Automatic"/>
+      <property name="output-name" type="string" value="Primary"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="enter-opacity" type="uint" value="100"/>
