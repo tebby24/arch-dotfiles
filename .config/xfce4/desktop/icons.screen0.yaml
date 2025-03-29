@@ -24,16 +24,6 @@ configs:
       col: 10
 - level: 0
   monitors:
-  - id: "238075704e0a8094d4f82aa48c59bad4fc7e0877"
-    display_name: "LG Electronics LG FHD 0x0006C470 (DisplayPort-2)"
-    geometry:
-      x: 0
-      y: 0
-      width: 1920
-      height: 1080
-  icons: {}
-- level: 0
-  monitors:
   - id: "9e934d54f8464ce844bea93f9d2e4d05dda1d185"
     display_name: "LG Display 0x045E (eDP-1)"
     geometry:
@@ -54,3 +44,13 @@ configs:
     "/home/tebby24/Desktop/chrome-ikpmlgdcejalmjnfbahhijemkcgljabf-Profile_2.desktop":
       row: 2
       col: 0
+- level: 0
+  monitors:
+  - id: "238075704e0a8094d4f82aa48c59bad4fc7e0877"
+    display_name: "LG Electronics LG FHD 0x0006C470 (DisplayPort-2)"
+    geometry:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+  icons: {}
