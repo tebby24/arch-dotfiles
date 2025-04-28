@@ -2,7 +2,7 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Materia-dark"/>
+    <property name="ThemeName" type="string" value="Materia-dark-compact"/>
     <property name="IconThemeName" type="string" value="elementary"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
@@ -32,7 +32,7 @@
     <property name="MenuBarAccel" type="empty"/>
     <property name="CursorThemeName" type="string" value="default"/>
     <property name="CursorThemeSize" type="empty"/>
-    <property name="DecorationLayout" type="string" value=":"/>
+    <property name="DecorationLayout" type="string" value=":minimize,close"/>
     <property name="DialogsUseHeader" type="bool" value="false"/>
     <property name="TitlebarMiddleClick" type="empty"/>
   </property>
@@ -40,6 +40,6 @@
     <property name="WindowScalingFactor" type="empty"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="SyncThemes" type="bool" value="true"/>
+    <property name="SyncThemes" type="bool" value="false"/>
   </property>
 </channel>

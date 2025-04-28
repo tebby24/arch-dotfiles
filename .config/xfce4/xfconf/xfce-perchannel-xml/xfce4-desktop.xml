@@ -30,13 +30,23 @@
       </property>
       <property name="monitorHDMI-A-0" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/home/qiyichen/Pictures/shared/wallpapers/darkblue.png"/>
-          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/tebby24/Pictures/shared/wallpapers/darkblue.png"/>
+          <property name="image-style" type="int" value="5"/>
         </property>
       </property>
       <property name="monitorDisplayPort-2" type="empty">
         <property name="workspace0" type="empty">
           <property name="last-image" type="string" value="/home/qiyichen/Pictures/shared/wallpapers/darkblue.png"/>
+        </property>
+      </property>
+      <property name="monitorDisplayPort-3" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/home/tebby24/Pictures/shared/wallpapers/darkblue.png"/>
+        </property>
+      </property>
+      <property name="monitorDisplayPort-4" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/home/tebby24/Pictures/shared/wallpapers/darkblue.png"/>
         </property>
       </property>
     </property>
