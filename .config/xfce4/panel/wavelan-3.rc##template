@@ -3,7 +3,6 @@ Interface=wlan0
 {% elif yadm.hostname == "t480-arch" %}
 Interface=wlp3s0
 {% else %}
-# Default interface if no match is found
 Interface=wlan0
 {% endif %}
 Autohide=false
