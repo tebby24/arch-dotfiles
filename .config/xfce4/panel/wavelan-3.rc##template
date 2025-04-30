@@ -4,9 +4,6 @@ Interface=wlan0
 {% if yadm.hostname == "t480-arch" %}
 Interface=wlp3s0
 {% endif %}
-{% if yadm.hostname != "ser5pro-arch" and yadm.hostname != "ser5pro-arch" %}
-Interface=wlan0
-{% endif %}
 Autohide=false
 AutohideMissing=false
 SignalColors=true
