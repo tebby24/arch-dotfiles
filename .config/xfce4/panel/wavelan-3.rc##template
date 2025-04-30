@@ -1,10 +1,10 @@
-{% if yadm.hostname == "your-hostname-1" %}
+{% if yadm.hostname == "ser5pro-arch" %}
+Interface=wlan0
+{% endif %}
+{% if yadm.hostname == "t480-arch" %}
 Interface=wlp3s0
 {% endif %}
-{% if yadm.hostname == "your-hostname-2" %}
-Interface=eth0
-{% endif %}
-{% if yadm.hostname != "your-hostname-1" and yadm.hostname != "your-hostname-2" %}
+{% if yadm.hostname != "ser5pro-arch" and yadm.hostname != "ser5pro-arch" %}
 Interface=wlan0
 {% endif %}
 Autohide=false
