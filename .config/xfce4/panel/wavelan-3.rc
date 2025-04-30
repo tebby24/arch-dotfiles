@@ -1,6 +1,4 @@
 Interface=wlan0
-{% elif yadm.hostname == "t480-arch" %}
-Interface=wlp3s0
 Autohide=false
 AutohideMissing=false
 SignalColors=true
