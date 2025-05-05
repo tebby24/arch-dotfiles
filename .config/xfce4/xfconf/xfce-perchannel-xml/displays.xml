@@ -5,25 +5,11 @@
   <property name="Notify" type="int" value="1"/>
   <property name="AutoEnableProfiles" type="int" value="3"/>
   <property name="Default" type="empty">
-    <property name="DisplayPort-3" type="string" value="Acer Technologies 27&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="7a0caf30e70649668737f2a5fab2c56fd0bfb2e3"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Scale" type="double" value="1"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="1080"/>
-        <property name="Y" type="int" value="207"/>
-      </property>
-    </property>
-    <property name="DisplayPort-4" type="string" value="LG Electronics 24&quot;">
+    <property name="DisplayPort-3" type="string" value="LG Electronics 24&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="cb0f7103597e7fa0a055dbd3c58342e311fb0bbc"/>
       <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="100"/>
+      <property name="RefreshRate" type="double" value="60"/>
       <property name="Rotation" type="int" value="90"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -31,6 +17,20 @@
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DisplayPort-4" type="string" value="Acer Technologies 27&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="7a0caf30e70649668737f2a5fab2c56fd0bfb2e3"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="100"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="double" value="1"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1080"/>
+        <property name="Y" type="int" value="358"/>
       </property>
     </property>
   </property>

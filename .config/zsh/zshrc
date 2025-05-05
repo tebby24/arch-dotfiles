@@ -26,7 +26,7 @@ compinit
 
 # prompt
 NEWLINE=$'\n'
-PROMPT="%n:%~${NEWLINE}$ "
+PROMPT="%n@%m %~${NEWLINE}$ "
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
