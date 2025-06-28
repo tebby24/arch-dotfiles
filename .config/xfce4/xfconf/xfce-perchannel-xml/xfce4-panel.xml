@@ -114,7 +114,7 @@
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
-        <property name="version" type="string" value="1.11.2"/>
+        <property name="version" type="string" value="1.12.0"/>
       </property>
     </property>
   </property>
