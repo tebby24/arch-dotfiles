@@ -8,7 +8,9 @@
     <property name="presentation-mode" type="bool" value="false"/>
     <property name="show-panel-label" type="int" value="1"/>
     <property name="show-presentation-indicator" type="bool" value="false"/>
-    <property name="inactivity-on-ac" type="uint" value="10"/>
-    <property name="dpms-enabled" type="bool" value="false"/>
+    <property name="inactivity-on-ac" type="uint" value="0"/>
+    <property name="dpms-enabled" type="bool" value="true"/>
+    <property name="dpms-on-ac-sleep" type="uint" value="0"/>
+    <property name="dpms-on-ac-off" type="uint" value="0"/>
   </property>
 </channel>
