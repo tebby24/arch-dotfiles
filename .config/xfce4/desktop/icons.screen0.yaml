@@ -22,9 +22,21 @@ configs:
     "/home/qiyichen/Desktop/41sGSDU+etL.jpg":
       row: 8
       col: 10
+    "ce0580df-a37a-4699-af1b-197fe038c7f4":
+      row: 1
+      col: 0
+      last_seen: 1753627001501873
+    "2025-01-10-16-16-21-00":
+      row: 0
+      col: 0
+      last_seen: 1753628333827342
     "/home/tebby24/Desktop/steam.desktop":
       row: 0
       col: 0
+    "2024-07-21-15-09-16-00":
+      row: 0
+      col: 0
+      last_seen: 1753627001499537
 - level: 0
   monitors:
   - id: "238075704e0a8094d4f82aa48c59bad4fc7e0877"
