@@ -39,8 +39,8 @@ configs:
       last_seen: 1753627001499537
 - level: 0
   monitors:
-  - id: "238075704e0a8094d4f82aa48c59bad4fc7e0877"
-    display_name: "LG Electronics LG FHD 0x0006C470 (DisplayPort-2)"
+  - id: "18cd23ce69b5c33a55f80e758ddc8eeeed6c27b6"
+    display_name: "Acer Technologies KA272 TJ0AA00785SJ (DisplayPort-5)"
     geometry:
       x: 0
       y: 0
@@ -71,8 +71,8 @@ configs:
       col: 0
 - level: 0
   monitors:
-  - id: "18cd23ce69b5c33a55f80e758ddc8eeeed6c27b6"
-    display_name: "Acer Technologies KA272 TJ0AA00785SJ (DisplayPort-5)"
+  - id: "238075704e0a8094d4f82aa48c59bad4fc7e0877"
+    display_name: "LG Electronics LG FHD 0x0006C470 (DisplayPort-2)"
     geometry:
       x: 0
       y: 0
