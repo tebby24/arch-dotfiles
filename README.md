@@ -1,6 +1,8 @@
 # tebby24's arch linux dots
+dotfiles for an arch linux xfce desktop environment
 
 ## setup instructions
+must be performed for each user on the machine
 
 ### install nessesary packages
 ```shell

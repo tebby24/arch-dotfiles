@@ -1,5 +1,7 @@
 .config/xfce4/panel/wavelan-3.rc
 .config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 .config/gtk-3.0/bookmarks
 .config/xfce4/xfce4-screenshooter
 .config/xfce4/desktop/icons.screen0.yaml
+.config/xfce4/desktop/accels.scm
