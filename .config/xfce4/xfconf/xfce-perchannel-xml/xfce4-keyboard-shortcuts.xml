@@ -48,8 +48,8 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;e" type="string" value="thunar Downloads"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;dollar" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;x" type="string" value="xkill"/>
-      <property name="&lt;Super&gt;b" type="string" value="chromium --profile-directory=&quot;Default&quot; --new-window"/>
-      <property name="&lt;Shift&gt;&lt;Super&gt;b" type="string" value="chromium --profile-directory=&quot;School&quot; --new-window"/>
+      <property name="&lt;Super&gt;b" type="string" value="firefox -P &quot;tebby24&quot;"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;b" type="string" value="firefox -P &quot;school&quot;"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
