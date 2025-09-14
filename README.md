@@ -18,6 +18,7 @@ sudo pacman -S xclip
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
 navigate to https://github.com/settings/ssh/new
+
 title the SSH key: _hostname (username)_
 
 determine your machine's hostname with `cat /etc/hostname`
