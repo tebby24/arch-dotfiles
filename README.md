@@ -1,11 +1,13 @@
-# tebby24's archlinux dots
+# tebby24's arch linux dots
 
-### setup instructions
+## setup instructions
 
-get a web browser
+### install nessesary packages
 ```shell
-sudo pacman -S firefox
+sudo pacman -S firefox git yadm
 ```
+
+### setup github ssh key
 
 generate an ssh key
 ```shell
@@ -23,8 +25,10 @@ title the SSH key: _hostname (username)_
 
 determine your machine's hostname with `cat /etc/hostname`
 
-to get the dotfiles, first install yadm
+### clone the dotfiles
+
 ```shell
-sudo pacman -S yadm
+yadm clone git@github.com:tebby24/linux-dotfiles.git
 ```
+
 
