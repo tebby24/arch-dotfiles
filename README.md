@@ -8,7 +8,7 @@ includes configuration for:
 - tmux
 - neovim 
 
-## setup instructions
+## clone the dotfiles
 must be performed for each user on the machine
 
 ### install nessesary packages
@@ -22,11 +22,14 @@ sudo pacman -S git yadm
 yadm clone git@github.com:tebby24/arch-dotfiles.git
 ```
 
+## install packages
+bash ~/.config/yadm/setup.sh
 
 
 ## other configuration
 
 ### setup ssh key with github
+this is necessary to push dotfile changes to the remote repo
 
 generate an ssh key
 ```shell

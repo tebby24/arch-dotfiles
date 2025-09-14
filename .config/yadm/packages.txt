@@ -1,0 +1,14 @@
+base-devel
+xfce4
+xfce4-goodies
+firefox
+neovim
+git
+zsh
+tmux
+alacritty
+xclip
+fzf
+ibus
+librime
+ibus-rime
