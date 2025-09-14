@@ -9,16 +9,11 @@ export PATH="$HOME/bin/scripts/shared:$PATH"
 # Remove duplicates from the PATH 
 export PATH=$(echo $PATH | tr ':' '\n' | awk '!seen[$0]++' | tr '\n' ':')
 
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 unsetopt beep
 bindkey -v
-# End of lines configured by zsh-newuser-install
-
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/tebby24/.zshrc'
 
 autoload -Uz compinit
 compinit
