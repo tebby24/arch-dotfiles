@@ -1,6 +1,13 @@
 # tebby24's arch linux dots
 dotfiles for an arch linux xfce desktop environment
 
+includes configuration for:
+- xfce4
+- zsh
+- alacritty
+- tmux
+- neovim 
+
 ## setup instructions
 must be performed for each user on the machine
 
