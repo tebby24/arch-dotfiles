@@ -13,8 +13,18 @@ must be performed for each user on the machine
 
 ### install nessesary packages
 ```shell
-sudo pacman -S firefox git yadm xclip
+sudo pacman -S git yadm 
 ```
+
+### clone the dotfiles
+
+```shell
+yadm clone git@github.com:tebby24/arch-dotfiles.git
+```
+
+
+
+## other configuration
 
 ### setup ssh key with github
 
@@ -32,11 +42,4 @@ navigate to https://github.com/settings/ssh/new
 title the SSH key: _hostname (username)_
 
 determine your machine's hostname with `cat /etc/hostname`
-
-### clone the dotfiles
-
-```shell
-yadm clone git@github.com:tebby24/linux-dotfiles.git
-```
-
 
