@@ -23,7 +23,9 @@ yadm clone git@github.com:tebby24/arch-dotfiles.git
 ```
 
 ## install packages
-bash ~/.config/yadm/setup.sh
+```shell
+bash ~/.config/yadm/install-packages.sh
+```
 
 
 ## other configuration
