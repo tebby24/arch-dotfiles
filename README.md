@@ -17,7 +17,7 @@ must be performed for each user on the machine
 sudo pacman -S git yadm 
 ```
 
-### clone the dotfiles
+### installing the dotfiles
 
 ```shell
 yadm clone git@github.com:tebby24/arch-dotfiles.git
@@ -42,6 +42,11 @@ mkdir ~/aur-builds && cd ~/aur-builds
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+```
+
+### install AUR packages
+```shell
+bash ~/.config/yadm/install-packages-aur.sh
 ```
 
 ### setup ssh key with github
