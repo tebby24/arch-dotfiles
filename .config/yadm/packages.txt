@@ -60,3 +60,4 @@ yadm
 zathura
 zathura-pdf-mupdf
 noto-fonts
+gnome-keyring
