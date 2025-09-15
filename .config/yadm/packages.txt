@@ -12,3 +12,4 @@ fzf
 ibus
 librime
 ibus-rime
+keyd
