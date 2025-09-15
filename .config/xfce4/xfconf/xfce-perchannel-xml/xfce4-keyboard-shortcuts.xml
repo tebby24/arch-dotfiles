@@ -42,14 +42,14 @@
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;Return" type="string" value="exo-open --launch TerminalEmulator"/>
-      <property name="&lt;Super&gt;space" type="string" value="xfce4-appfinder">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="&lt;Shift&gt;&lt;Super&gt;e" type="string" value="thunar Downloads"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;dollar" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;x" type="string" value="xkill"/>
       <property name="&lt;Super&gt;b" type="string" value="firefox -P &quot;tebby24&quot;"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;b" type="string" value="firefox -P &quot;school&quot;"/>
+      <property name="&lt;Super&gt;space" type="string" value="xfce4-appfinder">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
     </property>
   </property>
   <property name="xfwm4" type="empty">
