@@ -1,0 +1,4 @@
+neovim-nightly-bin
+anki-bin
+localsend
+visual-studio-code-bin

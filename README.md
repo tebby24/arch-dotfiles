@@ -7,6 +7,7 @@ includes configuration for:
 - alacritty
 - tmux
 - neovim 
+- ibus/rime (chinese input)
 
 ## clone the dotfiles
 must be performed for each user on the machine
@@ -27,8 +28,21 @@ yadm clone git@github.com:tebby24/arch-dotfiles.git
 bash ~/.config/yadm/install-packages.sh
 ```
 
+## configure system
+```shell
+bash ~/.config/yadm/setup.sh
+```
+
 
 ## other configuration
+
+### setup AUR helper
+```shell
+mkdir ~/aur-builds && cd ~/aur-builds
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
 
 ### setup ssh key with github
 this is necessary to push dotfile changes to the remote repo
