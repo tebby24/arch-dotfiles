@@ -7,6 +7,7 @@
       <value type="string" value="balenaEtcher"/>
       <value type="string" value="blueman"/>
       <value type="string" value="chromium"/>
+      <value type="string" value="code"/>
       <value type="string" value="discord"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="ibus-rime"/>
@@ -19,6 +20,7 @@
       <value type="string" value="org.manjaro.pamac.tray"/>
       <value type="string" value="org.qbittorrent.qBittorrent"/>
       <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="org.xfce.xfdesktop"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-power-manager"/>
       <value type="string" value="xfce4-settings-helper"/>
